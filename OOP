@@ -1,0 +1,17 @@
+# Object Oriented Programming in Python
+
+class Dog:
+  #def__init__()
+  #bark() is a method; ie a function that goes inside of a class
+  def bark(self):
+    print("bark")
+  def meow(self):
+    return "meow"
+  def add_one(self, x):
+    return x + 1
+
+d = Dog()
+# Dog is instantiated; ie a new object of type 'Dog' has been created
+print(type(d))
+d.bark()
+print(d.add_one(5))
